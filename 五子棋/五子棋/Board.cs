@@ -117,15 +117,15 @@ namespace 五子棋
         //清空存放棋子的矩陣內容 ,修改測試github同步功能
         public void CleanPiece()
         {
-            for (int i = 0; i < 9; i++)
+           /* for (int i = 0; i < 9; i++)
             {
                 for (int j = 0; j < 9; j++)
                 {
                     pieces[i, j] = null;
                 }
             }
-
-            // Array.Clear(pieces, 0, 81);
+            */
+             Array.Clear(pieces, 0, 81);
         }
         
     }
